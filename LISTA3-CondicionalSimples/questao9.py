@@ -4,7 +4,7 @@ aqueles que estão com a anuidade de associação em dia ou pagar o valor de 25 
 """
 print("= " * 10 + " autorizar a entrada " + "= "* 10);
 
-anuidade = str(input("sua anuidade de associação está em dia? (S ou N)\n"));
+anuidade = str(input("sua anuidade de associação está em dia (S ou N)\n"));
 if(anuidade == "S"):
     print("Acesso liberado");
 else:

@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+    int login,senha;
+    int validarSsenha = 9999;
+    int validarLogin = 1234;
+
+    printf("informe seu login:\n");
+    scanf("%d", &login);
+    if(login != validarLogin){
+        printf("Usuário invalido!\n");
+        return 1;
+    }else{
+        printf("informe sua senha:\n");
+        scanf("%d", &senha);
+        if(senha != validarSsenha){
+            printf("Senha incorreta!\n");
+            return 1;
+        }else{
+            printf("Acesso permitido");
+        }
+    }
+  return 0;
+}
